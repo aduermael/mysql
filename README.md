@@ -1,3 +1,7 @@
+> ⚠️⚠️⚠️
+
+> In that branch, `VOLUME /var/lib/mysql` lines have been removed from Dockerfiles. Volumes won't be created when running containers based on those images. MySQL data will reside within containers and will be lost when removing them. But this is actually useful in some situations.
+
 # https://github.com/docker-library/mysql
 
 ## Maintained by: [the Docker Community and the MySQL Team](https://github.com/docker-library/mysql)
